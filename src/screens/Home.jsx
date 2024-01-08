@@ -68,6 +68,8 @@ const Home = () => {
                             </>) : (<div style={{ width: '100%', height: '100%', display: "flex", alignItems: "center", justifyContent: "center", flexDirection: "column", gap: 10 }}>
                                 <img src="https://cdn-icons-png.flaticon.com/256/10444/10444910.png" alt="no todo" width={100} />
                                 <p>No todo</p>
+                                <p style={{ fontSize: 12, color: "#bbb" }}>Click to complete</p>
+                                <p style={{ fontSize: 12, color: "#bbb" }}>Double click to Delete</p>
                             </div>)
                         }
                     </div>
